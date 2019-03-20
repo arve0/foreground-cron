@@ -5,3 +5,5 @@ authors = ["Arve Seljebu <arve.seljebu@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+error-chain = "*"
+job_scheduler = "*"
