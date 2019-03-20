@@ -6,6 +6,8 @@ Cron implementation that runs jobs from crontab-file in foreground.
 cargo install foreground-crontab
 ```
 
+or [download static binary for linux x86_64](https://github.com/arve0/foreground-cron/releases).
+
 ## Usage
 ```bash
 ./foreground-crontab
