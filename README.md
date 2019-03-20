@@ -35,3 +35,11 @@ cd foreground-cron
 cargo install cargo-watch
 cargo watch -x check -x test -x run
 ```
+
+#### Building static binary
+Requires Docker installed.
+```bash
+alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src ekidd/rust-musl-builder'
+rust-musl-builder cargo build --release
+```
+For more details, see https://github.com/emk/rust-musl-builder.
