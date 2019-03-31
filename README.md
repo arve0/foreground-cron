@@ -3,7 +3,7 @@ Cron implementation that runs jobs from crontab-file in foreground.
 
 ## Install
 ```bash
-cargo install foreground-crontab
+cargo install foreground-cron
 ```
 
 or [download static binary for linux x86_64](https://github.com/arve0/foreground-cron/releases).
@@ -21,7 +21,7 @@ This `crontab`-file (lines starting with `#` are ignored)
 # min hour day month dayofweek cmd
   *   *    *   *     *         ls -l crontab
 ```
- 
+
 will print
 
 ```
