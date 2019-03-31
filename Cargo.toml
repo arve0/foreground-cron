@@ -2,7 +2,7 @@
 name = "foreground-cron"
 description = "single binary to run jobs from crontab in foreground"
 homepage = "https://github.com/arve0/foreground-cron"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Arve Seljebu <arve.seljebu@gmail.com>"]
 edition = "2018"
 license = "MIT"

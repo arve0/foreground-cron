@@ -2,15 +2,24 @@
 Cron implementation that runs jobs from crontab-file in foreground.
 
 ## Install
+### shell
+Downloads latest release for linux x86_64 to ~/.bin/ and makes it executable.
+```sh
+curl https://raw.githubusercontent.com/arve0/foreground-cron/master/install.sh | sh
+```
+
+### cargo
 ```bash
 cargo install foreground-cron
 ```
 
-or [download static binary for linux x86_64](https://github.com/arve0/foreground-cron/releases).
+### download
+[Download the static binary for linux x86_64](https://github.com/arve0/foreground-cron/releases) in relases.
 
 ## Usage
 ```bash
-./foreground-crontab
+echo "* * * * * date" > crontab
+foreground-crontab
 ```
 
 Reads the file `crontab` and runs jobs at their specified schedule.
