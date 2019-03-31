@@ -4,7 +4,7 @@ Cron implementation that runs jobs from crontab-file in foreground.
 ## Install
 ### shell
 Downloads latest release for linux x86_64 to ~/.bin/ and makes it executable.
-```sh
+```bash
 curl -s https://raw.githubusercontent.com/arve0/foreground-cron/master/install.sh | sh
 ```
 
@@ -52,5 +52,6 @@ Requires Docker installed.
 ```bash
 alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src ekidd/rust-musl-builder'
 rust-musl-builder cargo build --release
+rust-musl-builder strip target/x86_64-unknown-linux-musl/release/foreground-cron
 ```
 For more details, see https://github.com/emk/rust-musl-builder.
