@@ -5,7 +5,7 @@ Cron implementation that runs jobs from crontab-file in foreground.
 ### shell
 Downloads latest release for linux x86_64 to ~/.bin/ and makes it executable.
 ```sh
-curl https://raw.githubusercontent.com/arve0/foreground-cron/master/install.sh | sh
+curl -s https://raw.githubusercontent.com/arve0/foreground-cron/master/install.sh | sh
 ```
 
 ### cargo
